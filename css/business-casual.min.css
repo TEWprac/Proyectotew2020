@@ -1,0 +1,169 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.11 (https://startbootstrap.com/theme/business-casual)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+
+ */
+    /*linear.gradient es para colocar un color degradado*/
+    body{font-family:lora;
+        background-image:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/Teatro.jpg);
+ 	      background-attachment:fixed;
+        background-position:center;
+ 	      background-size:cover}
+    
+    h1,h2,h3,h4,h5,h6{font-family:lora}
+ 	
+    p{line-height:1.75}
+        .text-faded{
+            color:rgba(255,255,255,.3)}
+ 	  .site-heading{
+          margin-top:5rem;
+          margin-bottom:5rem;
+          text-transform:uppercase;
+          /* sirve para colocar el espacio entre lineas de texto*/
+          line-height:2;
+          /*  aca cambiamos la fuente del titulo*/
+          font-family:lora}
+ 	.site-heading .site-heading-upper{display:block;
+        font-size:2rem;
+        font-weight:800}
+ 	.site-heading .site-heading-lower{
+        font-size:5rem;
+        font-weight:100;
+        line-height:4rem}
+ 	.page-section{
+        margin-top:5rem;
+        margin-bottom:5rem}
+    .section-heading{
+        /* uppercase tranforma todo el texto en mayusculas*/
+        text-transform:uppercase}
+ 	.section-heading 
+        .section-heading-upper{
+        display:block;
+            font-size:1rem;
+            font-weight:800}
+ 	.section-heading 
+        .section-heading-lower{
+            display:block;
+            font-size:3rem;
+            font-weight:100}
+ 	.bg-faded{
+        background-color:rgba(255,255,255,.85)}
+        /* configurar menu principal*/
+        #mainNav{
+            background-color:rgba(84, 28, 24, 0.64);
+            /* aca cambiamos el tipo de letra del menu
+            prone con aria, raleway, poppins*/
+            font-family:raleway}
+            /*cambiamos el color al las letras alado del boton cuando es una 
+            pantalla pequeña*/ 
+ 	      #mainNav .navbar-brand{color:#e6a756}
+                /*cambiamos colores tamaños al menu extendido del boton*/
+ 	      #mainNav .navbar-nav .nav-item .nav-link{
+              color:rgba(255,255,255,.7);
+              font-weight:800}
+ 	      #mainNav .navbar-nav .nav-item.active 
+            .nav-link{color:#e6a756}@media (min-width:992px)
+ 	  {#mainNav .navbar-nav .nav-item .nav-link{
+        font-size:.9rem}
+ 	  #mainNav .navbar-nav .nav-item .nav-link:hover{
+        color:rgba(255,255,255,.4)}
+ 	  #mainNav .navbar-nav .nav-item.active .nav-link:hover{
+        color:#e6a756}}
+ 
+    /* imagen y texto de la pagina inicio*/
+ 	.intro{
+        position:relative}
+        @media (min-width:992px)
+ 	  {.intro .intro-img{
+          /*ajustamos el tamaño de la imagen en la pagina de inicio
+          */
+          width:80%;
+          float:right}
+ 	.intro .intro-text{
+        left:0;
+        width:60%;
+        margin-top:8rem;
+        position:absolute}
+ 	.intro .intro-text .intro-button{
+        width:100%;
+        left:0;
+        position:absolute;
+        bottom:-2rem}}
+    @media (min-width: 1250px)
+ 	{.intro .intro-text{width:45%}}
+    /* cta  segundo texto de la pagina principal
+     en esta linea podemos cambiar el color al fondo del seugndo texto*/
+    .cta{padding-top:5rem;
+        padding-bottom:5rem;
+        background-color:rgba(206, 148, 126, 0.81)}
+ 	.cta .cta-inner{position:relative;
+        padding:3rem;margin:.5rem;
+        background-color:rgba(255,255,255,.85)}
+ 	.cta .cta-inner:before{
+        border-radius:.5rem;
+        content:'';
+        position:absolute;
+        top:-.5rem;
+        bottom:-.5rem;
+        left:-.5rem;
+        right:-.5rem;
+        border:.25rem solid rgba(255,255,255,.85);z-index:-1}
+            @media (min-width:992px){
+ 		.about-heading .about-heading-img{
+            position:relative;
+            z-index:0}
+ 		.about-heading .about-heading-content{
+            margin-top:-5rem;
+            position:relative;
+            z-index:1}}@media (min-width:992px)
+ 		{.product-item .product-item-title{
+            position:relative;
+            z-index:1;
+            margin-bottom:-1rem}
+ 		.product-item .product-item-img{
+            position:relative;
+            z-index:0;max-width:60vw}
+ 		.product-item .product-item-description{
+            position:relative;
+            z-index:1;
+            margin-top:-3rem;
+            max-width:50vw}}
+ 		
+ 			.address strong{font-size:1.2rem}
+ 			.footer{background-color:rgba(72, 31, 15, 0.81)}
+
+            /* color al titutlo principal*/
+ 			.text-primary{
+                color:#e6a756!important}
+ 			.bg-primary{
+                background-color:#e6a756!important}
+ 			
+            .btn{
+                box-shadow:0 3px 3px 0 rgba(33,37,41,.1)}
+ 			.btn-primary{
+                background-color:#e6a756
+                ;border-color:#e6a756}
+ 			.btn-primary:active,
+            .btn-primary:focus,
+            .btn-primary:hover{
+                background-color:#df902a;
+                border-color:#df902a}
+ 			.font-weight-light{
+                font-weight:100!important}
+
+ #modal{
+        position:absolute;
+        width:80vw;
+        height:80vh;
+        left:10vw;
+        top:10vh;
+        background:rgba(33, 37, 41, 0.1);  
+    }    
+    #close{
+        color:#FFFF;
+        position:absolute;
+        top:10px;
+        right:10px;
+    }
+
